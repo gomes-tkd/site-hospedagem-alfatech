@@ -1,0 +1,52 @@
+.celula-escondida {
+  background-color: #fff;
+}
+
+.tabela-preco {
+  padding: 100px 0px;
+}
+
+.celula-cabeçalho {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+  background-color: #f1f3f7;
+}
+
+.celula-cabeçalho p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a8a4a4;
+}
+
+.primeira-celula {
+  background-color: #f1f3f7;
+  font-weight: 500;
+  text-align: left;
+}
+
+.celula-cabeçalho h2 {
+  font-size: 2rem;
+}
+
+table tbody td {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+  background-color: #f1f3f7;
+  font-weight: 500;
+  text-align: left;
+}
+
+.marcador-azul {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}

@@ -1,0 +1,32 @@
+.sobre-bg {
+  background-color: #2f86d6;
+}
+
+.paragrafo-sobre {
+  color: #fff;
+}
+
+.sobre {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 40px;
+}
+
+.sobre-logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.sobre img {
+  width: 100px;
+}
+
+.sobre-logo-info {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  gap: 5px;
+}

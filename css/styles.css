@@ -1,0 +1,23 @@
+/* Globais */
+@import url("./global/global.css");
+@import url("./global/header.css");
+@import url("./global/footer.css");
+
+/* conteúdo principal */
+@import url("./conteudo-principal/conteudo-principal.css");
+
+/* hospedagem */
+@import url("./hospedagem/hospedagem.css");
+@import url("./hospedagem/servicos.css");
+
+/* contato */
+@import url("./contato/contato.css");
+
+/* pacotes */
+@import url("./pacotes/pacotes.css");
+
+/* Sobre */
+@import url("./sobre/sobre.css");
+
+/* Tabela de preços */
+@import url("./tabela-precos/tabela-precos.css");

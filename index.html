@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto prático em HTML e CSS disponibilizado para os alunos da DevMedia - Desenvolvido por José Gomes">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>AlfaTech</title>
+</head>
+
+<body>
+  <header>
+    <nav class="container header" aria-label="Navegação primária">
+      <a class="index-header" href="./">
+        <img src="./assets/logo-icone.png" alt="AlfaTech logo" />
+        <div class="titulos-container-header">
+          <p class="titulo-header">AlfaTech</p>
+          <p class="subtitulo-header">Soluções em hospedagem</p>
+        </div>
+      </a>
+      <ul class="nav-header">
+        <li><a href="#informacoes">INFORMAÇÕES</a></li>
+        <li><a href="#planos">PLANOS</a></li>
+        <li><a href="#precos">PREÇOS</a></li>
+        <li><a href="#contato">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="conteudo-principal-bg">
+    <section class="conteudo-principal container">
+      <div class="info-conteudo-principal">
+        <p>Simples - Fácil de usar - 10x mais rápido!</p>
+        <h1> O melhor serviço de hospedagem na web para o seu site.</h1>
+        <p>Obtenha a melhor velocidade para o seu site. Não perca mais clientes por causa de lentidão na sua hospedagem.</p>
+      </div>
+      <img src="./assets/imagem-banner.png" alt="Servidores conectados" />
+    </section>
+  </main>
+  <article id="precos" class="hospedagem-bg-escuro">
+    <div class="hospedagem container">
+      <div class="info-hospedagem">
+        <h2>Hospede o seu site por apenas R$29 por mês</h2>
+        <p>Também temos planos gratuitos. Adquira já o seu.</p>
+      </div>
+      <a href="./paginas/tabela-precos.html" class="precos-btn precos-btn-bg-azul">
+        <img src="./assets/icone-foguete.png" alt="Foguete indo para cima" />
+        TABELA DE PREÇOS
+      </a>
+    </div>
+  </article>
+  <section id="informacoes" class="container servicos">
+    <h2>
+      Existem diversos serviços de hospedagem de sites. Porque você deve <span>nos escolher?</span>
+    </h2>
+    <div class="tipos-servicos">
+      <div class="info-servicos">
+        <img src="./assets/icone-engrenagens.png" alt="" />
+        <h3>Fácil de configurar</h3>
+        <p>
+          Facilmente configurável em plataformas CMS populares - wordpress, Joomia...
+        </p>
+      </div>
+      <div class="info-servicos">
+        <img src="./assets/cloud-icone.png" alt="" />
+        <h3>Servidores 100% Online</h3>
+        <p>
+          Facilmente configurável em plataformas CMS populares - wordpress, Joomia...
+        </p>
+      </div>
+      <div class="info-servicos">
+        <img src="./assets/cloud-icone.png" alt="" />
+        <h3>Servidores 100% Online</h3>
+        <p>
+          Facilmente configurável em plataformas CMS populares - wordpress, Joomia...
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="planos" class="pacotes-bg">
+    <div class="pacotes container">
+      <h2>Pague <span>somente</span> pelo que for usar. Sem combranças adicionais!</h2>
+      <table class="tabela-pacotes">
+        <thead>
+          <tr>
+            <th class="tabela-pacotes-thead">
+              <h3>PESSOAL</h3>
+              <img src="./assets/pessoal-icone.png" alt="Imagem de um usuário" />
+              <p>Indicado para uso pessoal</p>
+            </th>
+            <th class="tabela-pacotes-thead">
+              <h3>PROFISSIONAL</h3>
+              <img src="./assets/equipe-icone.png" alt="Imagem de uma equipe" />
+              <p>Indicado para profissionais de T.I.</p>
+            </th>
+            <th class="tabela-pacotes-thead">
+              <h3>EMPRESARIAL</h3>
+              <img src="./assets/empresa-icone.png" alt="Imagem de uma empresa" />
+              <p>Indicado para empresas</p>
+            </th>
+            <th class="tabela-pacotes-thead">
+              <h3>BIG TECHS</h3>
+              <img src="./assets/big-tech.png" alt="Imagem de um globo com empresas" />
+              <p>Indicado para grandes empresas</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 Usuário</td>
+            <td>10 Usuários</td>
+            <td>25 Usuários</td>
+            <td>50 Usuários</td>
+          </tr>
+          <tr>
+            <td>1 Domínio Grátis</td>
+            <td>2 Domínio Grátis</td>
+            <td>2 Domínio Grátis</td>
+            <td>3 Domínio Grátis</td>
+          </tr>
+          <tr>
+            <td>200GB SSD espaço</td>
+            <td>500GB SSD espaço</td>
+            <td>1TB SSD espaço</td>
+            <td>2TB SSD espaço</td>
+          </tr>
+          <tr>
+            <td>Ofertas especiais</td>
+            <td>Ofertas especiais</td>
+            <td>Ofertas especiais</td>
+            <td>Ofertas especiais</td>
+          </tr>
+          <tr>
+            <td>Suporte limitado</td>
+            <td>Suporte Ilimitado</td>
+            <td>Suporte Ilimitado</td>
+            <td>Suporte Ilimitado</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="tabela-pacotes-mb">
+        <div>
+          <thead>
+            <tr>
+              <th class="tabela-pacotes-thead tabela-pacotes-mb-font-size">
+                <h3>PESSOAL</h3>
+                <img src="./assets/pessoal-icone.png" alt="Imagem de um usuário" />
+                <p>Indicado para uso pessoal</p>
+              </th>
+              <th class="tabela-pacotes-thead">
+                <h3>PROFISSIONAL</h3>
+                <img src="./assets/equipe-icone.png" alt="Imagem de uma equipe" />
+                <p>Indicado para profissionais de T.I.</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 Usuário</td>
+              <td>10 Usuários</td>
+            </tr>
+            <tr>
+              <td>1 Domínio Grátis</td>
+              <td>2 Domínio Grátis</td>
+            </tr>
+            <tr>
+              <td>200GB SSD espaço</td>
+              <td>500GB SSD espaço</td>
+            </tr>
+            <tr>
+              <td>Ofertas especiais</td>
+              <td>Ofertas especiais</td>
+            </tr>
+            <tr>
+              <td>Suporte limitado</td>
+              <td>Suporte Ilimitado</td>
+            </tr>
+          </tbody>
+        </div>
+        <div>
+          <thead>
+            <tr>
+              <th class="tabela-pacotes-thead">
+                <h3>EMPRESARIAL</h3>
+                <img src="./assets/empresa-icone.png" alt="Imagem de uma empresa" />
+                <p>Indicado para empresas</p>
+              </th>
+              <th class="tabela-pacotes-thead">
+                <h3>BIG TECHS</h3>
+                <img src="./assets/big-tech.png" alt="Imagem de um globo com empresas" />
+                <p>Indicado para grandes empresas</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>25 Usuários</td>
+              <td>50 Usuários</td>
+            </tr>
+            <tr>
+              <td>2 Domínio Grátis</td>
+              <td>3 Domínio Grátis</td>
+            </tr>
+            <tr>
+              <td>1TB SSD espaço</td>
+              <td>2TB SSD espaço</td>
+            </tr>
+            <tr>
+              <td>Ofertas especiais</td>
+              <td>Ofertas especiais</td>
+            </tr>
+            <tr>
+              <td>Suporte Ilimitado</td>
+              <td>Suporte Ilimitado</td>
+            </tr>
+          </tbody>
+        </div>
+      </table>
+    </div>
+  </section>
+  <section class="hospedagem-bg-azul">
+    <div class="hospedagem container">
+      <p class="paragrafo-unico-hospedagem">Mais de 20.000 pessoas confiam na AlfaTech! Seja um deles você também!</p>
+      <a href="./paginas/tabela-precos.html" class="precos-btn precos-btn-bg-escuro">
+        <img src="./assets/icone-foguete.png" alt="Foguete indo para cima" />
+        TABELA DE PREÇOS
+      </a>
+    </div>
+  </section>
+  <article id="contato" class="contato container">
+    <div class="contato-logo">
+      <img src="./assets/logo-icone.png" alt="AlfaTech Logo" />
+      <div class="titulos-container-contato">
+        <p class="titulo-contato">AlfaTech</p>
+        <p class="subtitulo-contato">Soluções em hospedagem</p>
+      </div>
+    </div>
+    <div class="contato-info">
+      <p>Telefone & Whatsapp: (21) 99999-5555</p>
+      <p>E-mail: suporte@alfatech.com</p>
+      <p>Endereço: Av Ayrton Senna, 3000 - Barra da Tijuca - Rio de Janeiro</p>
+      <p>&copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+    </div>
+  </article>
+  <footer class="footer-bg-claro">
+    <p>Desenvolvido por <span>José Gomes</span></p>
+    <p><span>Front End Developer | HTML | CSS | JS | REACT.JS</span></p>
+  </footer>
+</body>
+
+</html>

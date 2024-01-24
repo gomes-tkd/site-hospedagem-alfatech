@@ -1,0 +1,75 @@
+.hospedagem-bg-escuro,
+.precos-btn-bg-escuro {
+  background-color: #233032;
+}
+
+.hospedagem-bg-azul,
+.precos-btn-bg-azul {
+  background-color: #2f86d6;
+}
+
+.hospedagem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+  color: #fff;
+}
+
+.precos-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 18px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.info-hospedagem {
+  display: grid;
+  gap: 5px;
+  align-items: start;
+}
+
+.paragrafo-unico-hospedagem {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 25px;
+  max-width: 40ch;
+}
+
+@media (max-width: 800px) {
+  .hospedagem {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-hospedagem {
+    text-align: center;
+  }
+
+  .info-hospedagem h1 {
+    font-size: 1rem;
+  }
+
+  .paragrafo-unico-hospedagem {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .info-hospedagem h2 {
+    font-size: 1.3rem;
+  }
+
+  .info-hospedagem p {
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+
+  .paragrafo-unico-hospedagem {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+}

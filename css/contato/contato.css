@@ -1,0 +1,52 @@
+.contato {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.contato-logo {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+
+.contato-logo img {
+  width: 100px;
+}
+
+.titulos-container-contato {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  gap: 5px;
+}
+
+.titulo-contato {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #233032;
+}
+
+.subtitulo-contato {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2f86d6;
+}
+
+.contato-info {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.contato-info p {
+  font-size: 1rem;
+  font-weight: 700;
+}
